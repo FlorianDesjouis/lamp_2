@@ -74,6 +74,11 @@ class Bank extends Player{
     parent::__construct("Banque");
   }
 }
+class GameState{
+    public $hand;
+    public $bank;
+    public $deck;
+}
 //SCENARIO 1
 $deck = new Deck();
 $deck->shuffle();
